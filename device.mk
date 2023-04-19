@@ -52,6 +52,9 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResTarget \
     OPlusWifiResTarget
 
+# PowerShare
+$(call inherit-product, vendor/hardware/oplus/aidl/powershare/powershare.mk)
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
