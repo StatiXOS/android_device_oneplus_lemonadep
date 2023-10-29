@@ -50,6 +50,7 @@ PRODUCT_PACKAGES += \
     OPlusApertureOverlay \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
+    OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
     OPlusWifiResTarget
 
